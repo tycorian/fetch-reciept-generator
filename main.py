@@ -96,13 +96,13 @@ reciept.drawCentredString(125, 350, f"{date} {time}")
 reciept.setFont('MerchantCopy', 14)
 
 if (float(item1price) != 0 and float(item1qty) != 0):
-    reciept.drawString(20, 300, f"{item1qty}   {item1name}: ${item1price}")
+    reciept.drawString(20, 300, f"{item1qty}   {item1name} ${item1price}")
 
 if (float(item3price) != 0 and float(item2qty) != 0):
-    reciept.drawString(20, 280, f"{item2qty}   {item2name}: ${item2price}")
+    reciept.drawString(20, 280, f"{item2qty}   {item2name} ${item2price}")
 
 if (float(item3price) != 0 and float(item3qty) != 0):
-    reciept.drawString(20, 260, f"{item3qty}   {item3name}: ${item3price}")
+    reciept.drawString(20, 260, f"{item3qty}   {item3name} ${item3price}")
 
 
 reciept.setFont('MerchantCopy', 16)
