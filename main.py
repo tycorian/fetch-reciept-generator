@@ -35,7 +35,7 @@ except:
 
 
 
-storeaddress = 3460 W chandler blvd("Enter the store address in this format '11111 Street Rd, City, State, Zip Code': ")
+storeaddress =.setfont('3460 W chandler blvd', 14) ("Enter the store address in this format '11111 Street Rd, City, State, Zip Code': ")
 
 #Date/Time
 date = input("Enter date in this format 'mm/dd/yyyy': ")
